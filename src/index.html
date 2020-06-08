@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bookstore</title>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../build/css/app.bundle.css">
+</head>
+
+<body>
+ 
+<!-- load spinner -->
+  <div class="spinner-loader">
+    <div class="spinner-border"></div>
+   </div>
+
+    <div class="banner">
+    <div class="header">
+    <div class="container max-container">
+    <nav class="navbar navbar-expand-lg navbar-light header-expand">
+       <a class="navbar-brand logo" alt="logo" href="#">Kvothe's Books</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="">&#9776</span>
+      </button>
+      <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
+    
+        <ul class="navbar-nav ">
+          <li class="nav-item ">
+            <a class="nav-link" href="#">News </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Books</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Events</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+      </div>
+    
+    </nav>
+  </div>
+</div>
+<div class="container max-container">
+  <div class="text-box">
+     <h2 class="title">You haven't read anything yet.</h2>
+        <p>they say outside of a dog, a book is man's best friend
+    (inside of a dog it's too dark to read). Come in, chat with us, share your favorite books & films and we'll introduce
+    you th same of the greatest friend you'll ever know.</p>
+    <button class="btn btn-success">Come visit us!</button>
+  </div>
+</div>
+    </div>
+    <!-- Search Bar starts-->
+      <div class="search">
+        <div class="container max-container search_box">
+            <input type="text"  class="search_values"  placeholder="Find a Book" id="serchBook">
+            <input type="button" class="btn btn-success" id="findBook" value="Search">
+        </div>
+        </div>
+        <!-- Search Bar Ends -->
+
+ 
+<div class="container-fluid">
+  <div class="container max-container">
+    <div class="row">
+    <main role="main" class="row" id="book-list">
+    <div class="no-records">No Records Found</div>
+  </main>
+   </div>
+
+  </div>
+</div>
+
+  <script type="text/javascript" src="../build/app.js"></script>
+
+</body>
+
+</html>
